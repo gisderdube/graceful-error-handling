@@ -1,0 +1,27 @@
+{
+    "name": "graceful-error-handling",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start:server": "nodemon src/server/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gisderdube/graceful-error-handling.git"
+    },
+    "author": "Lukas Gisder-Dubé",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gisderdube/graceful-error-handling/issues"
+    },
+    "homepage": "https://github.com/gisderdube/graceful-error-handling#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "concurrently": "^4.0.1",
+        "nodemon": "^1.18.6"
+    }
+}

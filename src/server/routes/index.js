@@ -7,7 +7,7 @@ router.use(async (req, res) => {
         const route = require(`.${req.path}`)[req.method]
 
         try {
-            const result = route(req) // We pass the request to the route function
+            const result = await route(req) // We pass the request to the route function
             res.send(result) // We just send to the client what we get returned from the route function
         } catch (err) {
             /*

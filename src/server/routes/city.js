@@ -1,8 +1,8 @@
 const CustomError = require('../CustomError')
 
 const GET = req => {
-    // example for success
-    return { name: 'Rio de Janeiro' }
+    // example for success (this is just to give you an example for async operations)
+    return Promise.resolve({ name: 'Rio de Janeiro' })
 }
 
 const POST = req => {
